@@ -39,6 +39,7 @@
         $(function() {
             $("#header").load("header.html");
             $("#footer").load("footer.html");
+            $("#tag").load("tag.html");
         });
     </script>
 
@@ -148,33 +149,8 @@
 
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="sidebar sidebar-right">
-                            <!-- category start -->
-                            <div class="widget widget-categories">
-                                <h3 class="widget-title">Categories</h3>
-                                <ul class="category-list clearfix">
-                                    <li><a href="#">Products And Design</a><span class="posts-count"> (01)</span></li>
-                                    <li><a href="#">Industry Consultancy</a><span class="posts-count"> (01)</span></li>
-                                    <li><a href="#">Infi IoT Platform</a><span class="posts-count"> (01)</span></li>
-                                    <li><a href="#">Web Services</a><span class="posts-count"> (01)</span></li>
-                                </ul>
-                            </div>
-                            <!-- category end -->
-
                             <!-- tags start -->
-                            <div class="widget widget-tags">
-                                <h3 class="widget-title">Tags</h3>
-                                <ul class="unstyled clearfix">
-                                    <li><a href="#">IoT</a></li>
-                                    <li><a href="#">Embedded Design</a></li>
-                                    <li><a href="#">Web Development</a></li>
-                                    <li><a href="#">Consultancy</a></li>
-                                    <li><a href="#">LoRa</a></li>
-                                    <li><a href="#">IoT Devices</a></li>
-                                    <li><a href="#">Cloud Computing</a></li>
-                                    <li><a href="#">Industry 4.0</a></li>
-                                    <li><a href="#">Automation</a></li>
-                                </ul>
-                            </div>
+                            <div id="tag"></div>
                             <!-- tags end -->
                         </div>
                         <!--/ Sidebar end -->
