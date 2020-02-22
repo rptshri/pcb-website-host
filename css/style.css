@@ -3308,6 +3308,7 @@ a.close-styler {
         margin-top: -35px;
     }
     #main-slide .slider-content h2 {
+        margin-top: 10vh;
         font-size: 18px;
         line-height: normal;
     }
@@ -3464,10 +3465,22 @@ a.close-styler {
 @media (max-width: 479px) {
     /* Slideshow */
     #main-slide .slides img {
-        height: 230px;
+        height: auto;
     }
     #main-slide .item img {
-        height: 250px;
+        height: auto;
+    }
+
+    #main-slide h2{
+        margin-top: 10vh;
+    }
+    #main-slide h3{
+        margin-top: 6vh;
+        display: block;
+    }
+
+    #main-slide p{
+        display: block;
     }
 }
 
