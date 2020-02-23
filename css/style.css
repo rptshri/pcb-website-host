@@ -34,6 +34,9 @@
 23. Landing page
 24.	Style Swithcer (you can delete the css) */
 
+html{
+    scroll-behavior: smooth;
+}
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 @font-face {
     font-family: 'JaapokkiRegular';
@@ -886,7 +889,7 @@ blockquote {
 }
 
 #main-slide .carousel-indicators {
-    bottom: 70px;
+    bottom: 40px;
 }
 
 .carousel-indicators li {
@@ -968,13 +971,13 @@ blockquote {
 }
 
 #main-slide .slider-content h2 {
-    font-size: 52px;
+    font-size: 50px;
     text-transform: uppercase;
     color: #fff;
 }
 
 #main-slide .slider-content h3 {
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 40px;
     color: #fff;
 }
@@ -2336,6 +2339,7 @@ ul.arrow li:before {
 /* Banner area */
 
 #banner-area {
+    height: 320px;
     position: relative;
 }
 
@@ -2348,7 +2352,7 @@ ul.arrow li:before {
 
 .banner-title-content h2 {
     color: #fff;
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .banner-title-content .breadcrumb {
@@ -3164,10 +3168,10 @@ a.close-styler {
     }
     /* Slideshow */
     #main-slide .slider-content h2 {
-        font-size: 36px;
+        font-size: 34px;
     }
     #main-slide .slider-content h3 {
-        font-size: 22px;
+        font-size: 20px;
         margin: 20px 0;
     }
     .slider.btn {
@@ -3176,7 +3180,7 @@ a.close-styler {
         font-size: 16px;
     }
     #main-slide .carousel-indicators {
-        bottom: 20px;
+        bottom: 14px;
     }
     /* Cd Hero Slider */
     .cd-hero-slider .cd-btn {
@@ -3187,7 +3191,7 @@ a.close-styler {
         display: none;
     }
     .cd-slider-nav {
-        bottom: 40px !important;
+        bottom: 14px !important;
     }
     /* Portfolio */
     .isotope-nav {
@@ -3308,15 +3312,21 @@ a.close-styler {
         margin-top: -35px;
     }
     #main-slide .slider-content h2 {
-        margin-top: 10vh;
-        font-size: 18px;
+        margin-top: 8vh;
+        font-size: 16px;
         line-height: normal;
     }
     #main-slide .slider-content h3 {
-        font-size: 12px;
+        font-size: 10px;
         line-height: normal;
         margin: 0;
     }
+
+    #main-slide .slider-content p{
+        display: block;
+        font-size: 15px;
+    }
+
     .slider.btn {
         display: none;
     }
@@ -3472,14 +3482,15 @@ a.close-styler {
     }
 
     #main-slide h2{
-        margin-top: 10vh;
+        margin-top: 4vh;
+        font-size: 14px;
     }
     #main-slide h3{
-        margin-top: 6vh;
         display: block;
     }
 
     #main-slide p{
+        font-size: 15px;
         display: block;
     }
 }
